@@ -1,0 +1,151 @@
+.top{
+    background: #2f3542;
+    
+}
+img{
+    max-width: 100%;
+}
+.inner-top h1 {
+    color: red;
+    box-shadow: rgb(0 0 0 / 26%) 0px -4px 125px;
+    text-align: center;
+    border-radius: 10px;
+}
+.inner-top h2 {
+    color: #19d803;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+.inner-top p {
+    text-align: center;
+    color: #ffffffb0;
+   
+    margin-top: 4px;
+    /* padding: 66px 10px; */
+    border-radius: 10px;
+}
+.button-2{
+    text-align: center;
+}
+.button-1 {
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(2, 2, 2);
+    padding: 6px 23px;
+    background: rgb(47 255 10 / 78%);
+    position: relative;
+    z-index: 1;
+}
+.button-1::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: rgba(182, 23, 23, 0.26);
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+   
+}
+.button-1:hover::before{
+    width: 100%;
+    transition: 1s;
+}
+
+
+
+
+.button-1:hover{
+    color: white;
+}
+.top-image {
+    width: 338px;
+    
+    margin-left: 85px;
+}
+.top-image img {
+    /* border-radius: 76%; */
+    border-radius: 50% !important;
+    box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
+}
+/* end fris section */
+/* start secound section */
+.top-2{
+    background: rgba(0, 0, 0, 0.87);
+}
+.s-2-img img {
+    height: 342px;
+    width: 844px;
+}
+.s-2-img{
+position: relative;
+}
+.breakfast {
+    position: absolute;
+    background-color: white;
+    padding: 15px 15px;
+    width: 280px;
+    top: 11%;
+    left: -150px;
+   
+    padding: 35px 24px;
+    border-radius: 15px;
+}
+/* section-3 */
+.section-3{
+    background-image: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s-3 {
+    padding: 122px 20px;
+}
+.s-3 h6 {
+    color: red;
+    display: inline-block;
+    background: black;
+    padding: 7px 17px;
+    border-radius: 10px;
+}
+.s-3 h2{
+    color: red;
+    display: inline-block;
+    background: black;
+    padding: 7px 17px;
+    border-radius: 10px;
+}
+.s-3 a {
+    display: inherit;
+    /* display: inline-block; */
+    /* padding: 7px 31px; */
+    
+}
+/* section-4 */
+.section-4{
+    background: #2f3542;
+}
+.cart1 {
+    width: 300px;
+    background: white;
+    padding: 37px 32px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+/* section-5 */
+.section-5{
+    background: black;  
+}
+.section-6{
+    background: #2f3542;
+}
+.ssss p {
+    color: white;
+    margin-top: 16px;
+}
